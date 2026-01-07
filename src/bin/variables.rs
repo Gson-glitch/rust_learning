@@ -36,8 +36,8 @@ fn main() {
     let name = 2;
     println!("Name with int type: {}", name);
 
-    // Constants - Must be UPPER_CASE and variable type must be provided.
+    // Constants - Must be SCREAMING_SNAKE_CASE and variable type must be provided.
     // Immutable meaning we can't shadow
-    const PI: f32 = 3.142;
-    println!("PI: {}", PI)
+    const MY_CONSTANT: f32 = 10_0000.44;
+    println!("MY_CONSTANT: {}", MY_CONSTANT)
 }
