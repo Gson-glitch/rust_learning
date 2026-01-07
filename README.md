@@ -25,7 +25,7 @@ A personal repository dedicated to documenting my progress through the **[Rust C
 
 - [X] **Setup:** Installation & Hello World (Video 1)
 - [X] **Fundamentals:** Variables, Shadowing, Constants & Data Types (Videos 2-3)
-- [ ] **Logic:** Functions & Control Flow (`if`, `match`, `loops`) (Videos 4-5)
+- [X] **Logic:** Functions & Control Flow (`if`, `match`, `loops`) (Videos 4-5)
 
 ### Phase 2: Memory & Ownership (The "Hard" Part)
 
