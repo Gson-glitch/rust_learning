@@ -18,7 +18,15 @@ fn main() {
     }
     // Loops
     // For Loop
+    // Exclusive range [..] (0, 1, 2, 3, 4)
+    println!("Exclusive Range (0..5)");
     for i in 0..5 {
+        println!("i: {}", i)
+    }
+
+    // Inclusive range [..=] (0, 1, 2, 3, 4, 5)
+    println!("Inclusive Range (0..=5)");
+    for i in 0..=5 {
         println!("i: {}", i)
     }
 

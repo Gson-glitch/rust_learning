@@ -27,10 +27,10 @@ A personal repository dedicated to documenting my progress through the **[Rust C
 - [X] **Fundamentals:** Variables, Shadowing, Constants & Data Types (Videos 2-3)
 - [X] **Logic:** Functions & Control Flow (`if`, `match`, `loops`) (Videos 4-5)
 
-### Phase 2: Memory & Ownership (The "Hard" Part)
+### Phase 2: Memory & Ownership
 
-- [ ] **Ownership:** Rules of the Heap and Stack (Video 6)
-- [ ] **References:** Borrowing and Slices (Videos 7-8)
+- [X] **Ownership:** Rules of the Heap and Stack (Video 6)
+- [X] **References:** Borrowing and Slices (Videos 7-8)
 
 ### Phase 3: Data Structures & Organization
 
