@@ -35,7 +35,7 @@ A personal repository dedicated to documenting my progress through the **[Rust C
 ### Phase 3: Data Structures & Organization
 
 - [X] **Structs:** Defining data and implementing Methods (Videos 9-11)
-- [ ] **Enums:** Mastering `Enum`, `Match`, and `if let` (Videos 12-14)
+- [X] **Enums:** Mastering `Enum`, `Match`, and `if let` (Videos 12-14)
 - [ ] **Modules:** Packages, Crates, and Visibility (Videos 15-18)
 
 ### Phase 4: Common Collections & Error Handling
