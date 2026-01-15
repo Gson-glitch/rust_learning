@@ -40,14 +40,14 @@ A personal repository dedicated to documenting my progress through the **[Rust C
 
 ### Phase 4: Common Collections & Error Handling
 
-- [ ] **Collections:** Vectors, Strings/UTF-8, and HashMaps (Videos 19-21)
-- [ ] **Error Handling:** `panic!` vs `Result`, and the `?` operator (Videos 22-24)
+- [X] **Collections:** Vectors, Strings/UTF-8, and HashMaps (Videos 19-21)
+- [X] **Error Handling:** `panic!` vs `Result`, and the `?` operator (Videos 22-24)
 
 ### Phase 5: Advanced Rust
 
-- [ ] **Generics & Traits:** Abstracting code and shared behavior (Videos 25-27)
-- [ ] **Lifetimes:** Validating references (Video 28)
-- [ ] **Testing:** Unit, Integration, and TDD (Videos 29-31, 36)
+- [X] **Generics & Traits:** Abstracting code and shared behavior (Videos 25-27)
+- [X] **Lifetimes:** Validating references (Video 28)
+- [X] **Testing:** Unit, Integration, and TDD (Videos 29-31, 36)
 
 ### Phase 6: Projects & Ecosystem
 
