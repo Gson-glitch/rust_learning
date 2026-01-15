@@ -21,8 +21,8 @@ impl Player {
     }
 
     // Methods (instance methods, must have self as the first parameter)
-    fn get_stats(&self) -> f32 {
-        self.stats
+    fn get_stats(&self) -> &f32 {
+        &self.stats
     }
 
     fn print_player(&self) {
