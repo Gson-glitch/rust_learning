@@ -16,11 +16,13 @@ impl Player {
     // Associated Functions
     // This are equivalents to @classmethods in Python.
     // Usually used for constructors (like new).
+    // Called by the :: notation e.g Player::new(...)
     fn new(name: String, stats: f32) -> Self {
         Self { name, stats }
     }
 
     // Methods (instance methods, must have self as the first parameter)
+    // Called by the . notation, e.g Player.get_stats()
     fn get_stats(&self) -> &f32 {
         &self.stats
     }
