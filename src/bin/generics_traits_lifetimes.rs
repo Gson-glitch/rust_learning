@@ -33,6 +33,7 @@ struct Mercedes {
     make: String,
 }
 
+#[allow(clippy::upper_case_acronyms)]
 struct BMW {
     horse_power: f64,
     engine_cc: f64,
