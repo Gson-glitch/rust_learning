@@ -30,10 +30,31 @@ fn main() {
         println!("i: {}", i)
     }
 
-    let nums: [i8; 5] = [1, 2, 3, 4, 5];
-    for n in nums {
+    let nums_arr: [i8; 5] = [1, 2, 3, 4, 5];
+    for n in nums_arr {
         println!("Num: {}", n);
     }
+    println!("Nums Array: {:?}", nums_arr); // This works because nums is an array (Scalar Type)
+
+    // However, looping a vector this way consumes it
+    // and it can no longer be accessible after the loop
+    let nums_vec: Vec<i32> = vec![1, 2, 3, 4, 5];
+    for n in nums_vec {
+        println!("Num: {}", n);
+    }
+    // println!("Nums Vector: {:?}", nums_vec); // ❌ ERROR: borrow of moved value: `data`
+
+    let nums_vec: Vec<i32> = vec![1, 2, 3, 4, 5];
+    for n in &nums_vec {
+        println!("Num: {}", n);
+    }
+    println!("Nums Vector: {:?}", nums_vec); // ✅ This works because we are using reference to nums_vec
+
+    let nums_vec: Vec<i32> = vec![1, 2, 3, 4, 5];
+    for n in nums_vec.iter() {
+        println!("Num: {}", n);
+    }
+    println!("Nums Vector: {:?}", nums_vec); // ✅ This works because we are using .iter() which returns a reference to nums_vec
 
     // While Loop
     let mut counter: i8 = 1;
