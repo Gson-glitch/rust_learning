@@ -51,9 +51,9 @@ A personal repository dedicated to documenting my progress through the **[Rust C
 
 ### Phase 6: Projects & Ecosystem
 
-- [ ] **CLI Development:** Building tools and reading files (Videos 32-35, 38, 41)
+- [X] **CLI Development:** Building tools and reading files (Videos 32-35, 38, 41)
 - [X] **Closures & Iterators:** Functional programming in Rust (Videos 39-40)
-- [ ] **Publishing:** Cargo Workspaces and Crates.io (Videos 42-44)
+- [X] **Publishing:** Cargo Workspaces and Crates.io (Videos 42-44)
 
 ### Phase 7: Smart Pointers & Concurrency
 

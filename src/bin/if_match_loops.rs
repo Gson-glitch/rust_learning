@@ -42,7 +42,7 @@ fn main() {
     for n in nums_vec {
         println!("Num: {}", n);
     }
-    // println!("Nums Vector: {:?}", nums_vec); // ❌ ERROR: borrow of moved value: `data`
+    // println!("Nums Vector: {:?}", nums_vec); // ❌ ERROR: borrow of moved value: `nums_vec`
 
     let nums_vec: Vec<i32> = vec![1, 2, 3, 4, 5];
     for n in &nums_vec {

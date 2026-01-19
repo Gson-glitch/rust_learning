@@ -23,7 +23,7 @@ fn main() {
     // Multi-line closures
     let x: i32 = 8;
     let compute = |a, b| {
-        let result = a + b;
+        let result: i32 = a + b;
         result * x
     };
     println!("Result: {}", compute(4, 8));
